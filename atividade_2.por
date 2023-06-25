@@ -19,9 +19,9 @@ programa
 
 		delta = (b*b)-(4*a*b)
 		
-		xmenos = (-b) - m.raiz(delta, 2)
+		xmenos = (-b) - m.raiz(delta, 2) / (2*a)
 		
-		xmais = (-b) + m.raiz(delta, 2)
+		xmais = (-b) + m.raiz(delta, 2) / (2*a)
 
 		escreva("Seu a era ", a, "\n")
 		escreva("Seu b era ", b, "\n")
